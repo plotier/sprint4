@@ -97,7 +97,7 @@ describe('Function "getMoviesFromDirector"', () => {
 
 });
 
-// Exercise 3
+// Exercise 3 .only.only.only.only.only.only.only.only.only
 describe('Function "moviesAverageOfDirector"', () => {
   it('should be declared', () => {
     expect(typeof moviesAverageOfDirector).toBe('function');
@@ -138,7 +138,7 @@ describe('Function "moviesAverageOfDirector"', () => {
 
 });
 
-// Exercise 4
+// Exercise 4 .only.only.only
 describe('Function "orderAlphabetically"', () => {
   it('should be declared', () => {
     expect(typeof orderAlphabetically).toBe('function');
