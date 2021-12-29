@@ -10,7 +10,7 @@ const {
   bestFilmOfYear,
 } = require('../src/films');
 
-// Exercise 1
+// Exercise 1 Use .only to check step by step
 describe('Function "getAllDirectors"', () => {
   it('should be declared', () => {
     expect(typeof getAllDirectors).toBe('function');
@@ -138,7 +138,7 @@ describe('Function "moviesAverageOfDirector"', () => {
 
 });
 
-// Exercise 4 .only.only.only
+// Exercise 4
 describe('Function "orderAlphabetically"', () => {
   it('should be declared', () => {
     expect(typeof orderAlphabetically).toBe('function');
